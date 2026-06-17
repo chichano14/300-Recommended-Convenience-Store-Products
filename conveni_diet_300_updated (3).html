@@ -1,0 +1,4573 @@
+<html lang="ja"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>コンビニ3社 ダイエット商品300選 PFCパーフェクトリスト</title>
+  <style>
+    /* ===== GLOBAL ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: 'Hiragino Sans', 'ヒラギノ角ゴシック', 'Yu Gothic', '游ゴシック', Meiryo, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: white;
+      text-align: center;
+      padding: 60px 20px 50px;
+    }
+    .hero h1 {
+      font-size: clamp(1.4rem, 4vw, 2.2rem);
+      font-weight: 900;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+    .hero p {
+      font-size: clamp(0.85rem, 2vw, 1rem);
+      opacity: 0.85;
+      max-width: 600px;
+      margin: 0 auto 24px;
+    }
+    .hero-badges {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 0.85rem;
+      backdrop-filter: blur(4px);
+    }
+
+    /* ===== TOC ===== */
+    .toc {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .toc a {
+      text-decoration: none;
+      padding: 14px 28px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border-bottom: 3px solid transparent;
+      transition: all 0.2s;
+    }
+    .toc a.seven { color: #e31837; }
+    .toc a.seven:hover { border-color: #e31837; background: #fff5f5; }
+    .toc a.lawson { color: #0068b7; }
+    .toc a.lawson:hover { border-color: #0068b7; background: #f0f7ff; }
+    .toc a.famima { color: #007140; }
+    .toc a.famima:hover { border-color: #007140; background: #f0fff7; }
+
+    /* ===== SECTION ===== */
+    .store-section { padding: 0 0 60px; }
+
+    /* -- SEVEN -- */
+    .seven .store-header {
+      background: linear-gradient(135deg, #e31837 0%, #c4001a 40%, #ff6b35 100%);
+      color: white;
+      padding: 40px 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .seven .store-logo {
+      background: white;
+      border-radius: 12px;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .seven .store-logo-text {
+      color: #e31837;
+      font-size: 1.4rem;
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.1;
+    }
+    .seven .store-count span { font-size: 2.5rem; font-weight: 900; }
+    .seven .products-grid { background: #fff8f8; }
+    .seven .product-card:hover { border-color: #e31837; transform: translateY(-3px); box-shadow: 0 8px 20px rgba(227,24,55,0.15); }
+    .seven .product-category { background: #ffeaea; color: #c4001a; }
+    .seven .pfc-item.protein { background: #e31837; color: white; }
+    .seven .product-point { color: #a00015; }
+    .seven .pfc-item.calorie { background: #ff6b35; color: white; }
+    .seven .section-divider { background: linear-gradient(90deg, #e31837, #ff6b35); }
+
+    /* -- LAWSON -- */
+    .lawson .store-header {
+      background: linear-gradient(135deg, #0068b7 0%, #004f8e 40%, #00a0e9 100%);
+      color: white;
+      padding: 40px 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .lawson .store-logo {
+      background: white;
+      border-radius: 12px;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .lawson .store-logo-text {
+      color: #0068b7;
+      font-size: 0.8rem;
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+    }
+    .lawson .store-count span { font-size: 2.5rem; font-weight: 900; }
+    .lawson .products-grid { background: #f5f9ff; }
+    .lawson .product-card:hover { border-color: #0068b7; transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,104,183,0.15); }
+    .lawson .product-category { background: #e0f0ff; color: #004f8e; }
+    .lawson .pfc-item.protein { background: #0068b7; color: white; }
+    .lawson .product-point { color: #004f8e; }
+    .lawson .pfc-item.calorie { background: #00a0e9; color: white; }
+    .lawson .section-divider { background: linear-gradient(90deg, #0068b7, #00a0e9); }
+
+    /* -- FAMIMA -- */
+    .famima .store-header {
+      background: linear-gradient(135deg, #007140 0%, #005530 40%, #00a651 100%);
+      color: white;
+      padding: 40px 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .famima .store-logo {
+      background: white;
+      border-radius: 12px;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .famima .store-logo-text {
+      color: #007140;
+      font-size: 0.65rem;
+      font-weight: 900;
+      text-align: center;
+      line-height: 1.3;
+      letter-spacing: 0.02em;
+    }
+    .famima .store-count span { font-size: 2.5rem; font-weight: 900; }
+    .famima .products-grid { background: #f5fff9; }
+    .famima .product-card:hover { border-color: #007140; transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,113,64,0.15); }
+    .famima .product-category { background: #e0ffe8; color: #005530; }
+    .famima .pfc-item.protein { background: #007140; color: white; }
+    .famima .product-point { color: #005530; }
+    .famima .pfc-item.calorie { background: #00a651; color: white; }
+    .famima .section-divider { background: linear-gradient(90deg, #007140, #00a651); }
+
+    /* ===== HEADER SHARED ===== */
+    .store-title-block { flex: 1; }
+    .store-name { font-size: clamp(1.4rem, 3vw, 1.8rem); font-weight: 900; margin-bottom: 4px; }
+    .store-subtitle { opacity: 0.85; font-size: 0.9rem; }
+    .store-count { text-align: center; opacity: 0.9; font-size: 0.85rem; line-height: 1.2; }
+
+    /* ===== GRID ===== */
+    .products-grid {
+      padding: 24px 16px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* ===== CARD ===== */
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      border: 1.5px solid #e8e8e8;
+      overflow: hidden;
+      display: flex;
+      align-items: stretch;
+      transition: all 0.25s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .product-image {
+      width: 72px;
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      background: #f8f8f8;
+      flex-shrink: 0;
+    }
+    .product-info {
+      padding: 10px 12px;
+      flex: 1;
+      min-width: 0;
+    }
+    .product-category {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-bottom: 5px;
+    }
+    .product-name {
+      font-size: 0.85rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 7px;
+      color: #1a1a1a;
+    }
+    .pfc-bar {
+      display: flex;
+      gap: 4px;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+    }
+    .pfc-item {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 8px;
+    }
+    .pfc-item.fat { background: #f0f0f0; color: #555; }
+    .pfc-item.carbs { background: #f0f0f0; color: #555; }
+    .product-point {
+      font-size: 0.72rem;
+      line-height: 1.35;
+      opacity: 0.85;
+      font-style: italic;
+    }
+
+    /* ===== DIVIDER ===== */
+    .section-divider { height: 6px; width: 100%; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #1a1a2e;
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 32px 20px;
+      font-size: 0.8rem;
+    }
+    footer strong { color: white; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .toc a { padding: 12px 16px; font-size: 0.8rem; }
+      .store-header { flex-direction: column; text-align: center; }
+      .products-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .product-image { width: 56px; font-size: 1.5rem; }
+      .store-logo { width: 64px; height: 64px; }
+    }
+    @media (max-width: 400px) {
+      .products-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+<style id="claude-agent-animation-styles">
+      @keyframes claude-pulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      #claude-agent-glow-border-inner {
+        animation: claude-pulse 2s ease-in-out infinite;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #claude-agent-glow-border-inner {
+          animation: none;
+        }
+      }
+    </style></head>
+<body>
+
+<div class="hero">
+  <h1>🏪 コンビニ3社<br>ダイエット商品300選</h1>
+  <p>登録管理栄養士監修・PFCパーフェクトリスト<br>セブン-イレブン / ローソン / ファミリーマート</p>
+  <div class="hero-badges">
+    <span class="badge">🔬 PFC完全記載</span>
+    <span class="badge">⚡ 300商品網羅</span>
+    <span class="badge">💪 筋トレ対応</span>
+    <span class="badge">🩸 血糖値対策</span>
+  </div>
+</div>
+
+<nav class="toc">
+  <a href="#seven" class="seven">🔴 セブン-イレブン</a>
+  <a href="#lawson" class="lawson">🔵 ローソン</a>
+  <a href="#famima" class="famima">🟢 ファミリーマート</a>
+</nav>
+<div class="section-divider seven"></div>
+  <section id="seven" class="store-section seven">
+    <div class="store-header">
+      <div class="store-logo"><img src="https://www.sej.co.jp/library/common/rn202601/images/app/icon_app_sej.webp" alt="セブン-イレブン" style="width:80px;height:80px;object-fit:contain;border-radius:12px;"></div>
+      <div class="store-title-block">
+        <h2 class="store-name">セブン-イレブン</h2>
+        <p class="store-subtitle">ダイエット推奨商品 100選</p>
+      </div>
+      <div class="store-count"><span>100</span><br>商品</div>
+    </div>
+    <div class="products-grid">
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/101200/DD55923C77917B79AC83F775D834C8A0.jpg" alt="7P さんまの塩焼" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P さんまの塩焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 30.0g</span>
+          <span class="pfc-item fat">F: 4.6g</span>
+          <span class="pfc-item carbs">C: 0.4g</span>
+          <span class="pfc-item calorie">162kcal</span>
+        </div>
+        <div class="product-point">💡 驚異のP30g・最強の魚</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/250701/6C7B6801A4037E9B2B64DABDA469AF5A.jpg" alt="7P サラダチキン プレーン" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">7P サラダチキン プレーン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.3g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">113kcal</span>
+        </div>
+        <div class="product-point">💡 不動の王者・コスパ最強</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/250593/B133280D5724FD97EB00201AC362994D.jpg" alt="7P サラダチキン スモーク" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">7P サラダチキン スモーク</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.6g</span>
+          <span class="pfc-item fat">F: 1.1g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">105kcal</span>
+        </div>
+        <div class="product-point">💡 4種のチップで燻製</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥐</div>
+      <div class="product-info">
+        <div class="product-category">パン/ロール</div>
+        <div class="product-name">たんぱく質が摂れる チキンマスタードサラダロール</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 27.8g</span>
+          <span class="pfc-item fat">F: 4.3g</span>
+          <span class="pfc-item carbs">C: 23.5g</span>
+          <span class="pfc-item calorie">239kcal</span>
+        </div>
+        <div class="product-point">💡 驚異の低脂質・高Pパン</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/053729/9C278B2D3ED9385406D983ED8F0B7B11.jpg" alt="たんぱく質が摂れる チキン＆チリ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">パン/ロール</div>
+        <div class="product-name">たんぱく質が摂れる チキン＆チリ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 25.8g</span>
+          <span class="pfc-item fat">F: 9.6g</span>
+          <span class="pfc-item carbs">C: 24.8g</span>
+          <span class="pfc-item calorie">280kcal</span>
+        </div>
+        <div class="product-point">💡 全粒粉入・血糖値対策</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">たんぱく質が摂れる 砂肝の黒胡椒焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.3g</span>
+          <span class="pfc-item fat">F: 1.8g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 肝機能サポート・低脂質</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/103228/A7244B4FC1507CBFB3F05D413EAECA29.jpg" alt="7P ほっけの塩焼き" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P ほっけの塩焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 良質な脂質で痩せ体質へ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/104758/A0B505A5D8897BCD26E546D96DA5E449.jpg" alt="たんぱく質が摂れる 鶏むね肉サラダ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる 鶏むね肉サラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 19.8g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">152kcal</span>
+        </div>
+        <div class="product-point">💡 蒸し鶏と玉子の黄金比</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/040535/D540B61CB8BCED883C72469643083ADA.jpg" alt="7P 鶏そぼろ弁当" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">弁当/丼</div>
+        <div class="product-name">7P 鶏そぼろ弁当</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.5g</span>
+          <span class="pfc-item fat">F: 4.5g</span>
+          <span class="pfc-item carbs">C: 60.7g</span>
+          <span class="pfc-item calorie">341kcal</span>
+        </div>
+        <div class="product-point">💡 コンビニ弁当屈指の低F</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/040535/D540B61CB8BCED883C72469643083ADA.jpg" alt="7P 親子丼（ヨード卵・光使用）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">弁当/丼</div>
+        <div class="product-name">7P 親子丼（ヨード卵・光使用）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.8g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 77.7g</span>
+          <span class="pfc-item calorie">497kcal</span>
+        </div>
+        <div class="product-point">💡 高Pで満足度最大級</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/102907/CE5C23CAE6C58DAC38AD66494F38BBB1.jpg" alt="たんぱく質が摂れる 砂肝ポン酢" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">たんぱく質が摂れる 砂肝ポン酢</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 咀嚼数UPで満腹中枢刺激</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/251013/2CE3B9DB7C6BC3E5C98E8B06E1FAC00E.jpg" alt="たこぶつ（刺身）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">たこぶつ（刺身）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 タウリン豊富・深夜も可</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252074/76B44A0898AB3EA64C6849A3FAAD8A50.jpg" alt="7P 豆腐バー 柚子胡椒風味" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P 豆腐バー 柚子胡椒風味</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.3g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 植物性P・手軽に補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252074/76B44A0898AB3EA64C6849A3FAAD8A50.jpg" alt="7P 豆腐バー 枝豆とひじき" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P 豆腐バー 枝豆とひじき</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 食物繊維も同時に確保</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252074/76B44A0898AB3EA64C6849A3FAAD8A50.jpg" alt="7P 豆腐バー おからと枝豆" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P 豆腐バー おからと枝豆</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 腹持ち重視の選択肢</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P 焼豆腐バー すき焼き風味</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.5g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 濃厚な味で食事制限緩和</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">たんぱく質10g カニカマバー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.2g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 魚肉Pを手軽に摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">7P 冷しとろろそば</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.1g</span>
+          <span class="pfc-item fat">F: 2.2g</span>
+          <span class="pfc-item carbs">C: 59.7g</span>
+          <span class="pfc-item calorie">311kcal</span>
+        </div>
+        <div class="product-point">💡 レジスタントスターチ活用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">6種具材の冷し中華</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 17.6g</span>
+          <span class="pfc-item fat">F: 6.5g</span>
+          <span class="pfc-item carbs">C: 76.4g</span>
+          <span class="pfc-item calorie">431kcal</span>
+        </div>
+        <div class="product-point">💡 具沢山でPFC良好</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252110/0DF0E4C4D08ECCD862CC72B3E59CE9F2.jpg" alt="味付き半熟ゆでたまご" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">味付き半熟ゆでたまご</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.4g</span>
+          <span class="pfc-item fat">F: 4.4g</span>
+          <span class="pfc-item carbs">C: 0.4g</span>
+          <span class="pfc-item calorie">65kcal</span>
+        </div>
+        <div class="product-point">💡 完全栄養食・コスパ最強</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/250703/8B1E8A01C3F30EB79FD4A8DCBEB2C2CB.jpg" alt="7P サラダチキンバー バジル" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P サラダチキンバー バジル</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 21.6g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 1.8g</span>
+          <span class="pfc-item calorie">108kcal</span>
+        </div>
+        <div class="product-point">💡 糖質ゼロの優秀バー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/250704/1B44476C34DABB2FFD1E4C6EC7C27E2E.jpg" alt="7P サラダチキンバー スモーク" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P サラダチキンバー スモーク</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 21.6g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 1.8g</span>
+          <span class="pfc-item calorie">108kcal</span>
+        </div>
+        <div class="product-point">💡 香ばしさが満足度を牽引</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252085/1D5E6CA4F04AF574B78A3B4C4E3C37A1.jpg" alt="7P がんもバー" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P がんもバー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.5g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 1本で植物性P10g超</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる 温玉と豆腐つくねサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 17.7g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">440kcal</span>
+        </div>
+        <div class="product-point">💡 和風仕上げの食べ応え</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/105254/5785219DC2E37A62C0D82F7E4E23DDAB.jpg" alt="たんぱく質が摂れる 豚しゃぶサラダ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる 豚しゃぶサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 23.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 ゆず香るおろしポン酢</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる おつまみチキンのサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 21.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 単品で食事になる満足感</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">たんぱく質が摂れる 味しみ鶏大根</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.7g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">370kcal</span>
+        </div>
+        <div class="product-point">💡 濃厚出汁で満足度高い</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍲</div>
+      <div class="product-info">
+        <div class="product-category">汁物</div>
+        <div class="product-name">たんぱく質が摂れる 博多水炊き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 23.4g</span>
+          <span class="pfc-item fat">F: 20.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">580kcal</span>
+        </div>
+        <div class="product-point">💡 スープまで旨い高P鍋</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/103294/64F7F1C14C8F6E8D6BA4AA7BFEA56D7D.jpg" alt="7P 参鶏湯（サムゲタン）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P 参鶏湯（サムゲタン）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 代謝を温めて上げる</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/103303/C90C0D88A0C3DB9B7C81E5D57AE89E4D.jpg" alt="7P 豚汁" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P 豚汁</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 12.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 野菜・肉・発酵の完全食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/101884/68EAEDB505068127CD934389E9FA0B24.jpg" alt="7P 餃子スープ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P 餃子スープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 20.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 汁物で満足感を最大化</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P 寄せ豆腐</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.5g</span>
+          <span class="pfc-item fat">F: 3.5g</span>
+          <span class="pfc-item carbs">C: 1.5g</span>
+          <span class="pfc-item calorie">58kcal</span>
+        </div>
+        <div class="product-point">💡 圧倒的低脂質なP補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/101884/68EAEDB505068127CD934389E9FA0B24.jpg" alt="7P ほうれん草の胡麻和え" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">7P ほうれん草の胡麻和え</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.2g</span>
+          <span class="pfc-item fat">F: 3.5g</span>
+          <span class="pfc-item carbs">C: 6.8g</span>
+          <span class="pfc-item calorie">72kcal</span>
+        </div>
+        <div class="product-point">💡 鉄分・ミネラル確保</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/101872/A70B79083C4CD8F0FBF7A09DF77055F3.jpg" alt="7P ひじきの煮物" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">7P ひじきの煮物</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.8g</span>
+          <span class="pfc-item fat">F: 2.5g</span>
+          <span class="pfc-item carbs">C: 11.2g</span>
+          <span class="pfc-item calorie">85kcal</span>
+        </div>
+        <div class="product-point">💡 水溶性食物繊維が豊富</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">ゼロキロカロリー寒天ゼリー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 罪悪感ゼロで甘味欲解消</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/101402/6F9B7A1A2A8B2AD6B7C9D3F1E5A4B2C8.jpg" alt="7P あじの塩焼" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P あじの塩焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 DHA/EPAで血流促進</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P 赤魚の煮付</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 0.1g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 煮魚でも超低糖質</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/104362/4329A2640DC5DE2789FFB248E4F88160.jpg" alt="7P さばの塩焼き" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P さばの塩焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 20.0g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">250kcal</span>
+        </div>
+        <div class="product-point">💡 良質な脂質の王様</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">7P もち麦おにぎり（各種）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 水溶性食物繊維で糖吸収抑</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">7P 玄米おにぎり</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.5g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 低GI主食の決定版</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/380148/5F7B7F0B54C0E5C0F4E6A8E3F49BAAD5.jpg" alt="7P 穂先メンマ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">7P 穂先メンマ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.8g</span>
+          <span class="pfc-item fat">F: 4.5g</span>
+          <span class="pfc-item carbs">C: 3.5g</span>
+          <span class="pfc-item calorie">65kcal</span>
+        </div>
+        <div class="product-point">💡 ベジファーストに最適</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/253010/4D9D7C88F7F5F1B6E3F9A2D4A5E9E66C.jpg" alt="7P 枝豆（塩味）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">7P 枝豆（塩味）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 7.5g</span>
+          <span class="pfc-item fat">F: 3.5g</span>
+          <span class="pfc-item carbs">C: 2.5g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 カリウムでむくみ防止</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/380148/5F7B7F0B54C0E5C0F4E6A8E3F49BAAD5.jpg" alt="7P あたりめ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">7P あたりめ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 咀嚼数向上・空腹対策</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/380148/5F7B7F0B54C0E5C0F4E6A8E3F49BAAD5.jpg" alt="7P 鮭とば" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">7P 鮭とば</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 高Pな優秀おつまみ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252051/7C1A2B6F9E5D8A3F4C7E2B1A6D4E3C9B.jpg" alt="7P 甘栗（むき栗）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">7P 甘栗（むき栗）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 食物繊維豊富な和菓子代り</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252051/7C1A2B6F9E5D8A3F4C7E2B1A6D4E3C9B.jpg" alt="7P 素焼きアーモンド" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">7P 素焼きアーモンド</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 13.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 1日10粒で良質な脂質</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/270201/A3F2C1B8D7E6F5A4C3B2E1D6A5B4C3D2.jpg" alt="7P ゼロサイダー トリプル" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P ゼロサイダー トリプル</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 7.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 難消化性デキストリン配合</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/270301/B1C2D3E4F5A6B7C8D9E0F1A2B3C4D5E6.jpg" alt="7P ブラックコーヒー" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P ブラックコーヒー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 カフェインで脂肪燃焼促進</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/380290/2B3C4D5E6F7A8B9C0D1E2F3A4B5C6D7E.jpg" alt="1本満足バー プロテインバイタリティ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">1本満足バー プロテインバイタリティ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 亜鉛・マカ配合で活力UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/102026/68198581F08FC17DED90B22E90F49D58.jpg" alt="7P 茶碗蒸し" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P 茶碗蒸し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 低カロリーで深まる満足感</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P もずく酢</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.5g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.8g</span>
+          <span class="pfc-item calorie">18kcal</span>
+        </div>
+        <div class="product-point">💡 血糖値スパイクの封殺</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P ししゃも焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 丸ごと食べられカルシウム</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/104363/CC5A062A2D9C6CA4604D8188BB2B8E16.jpg" alt="7P 銀鮭の塩焼" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P 銀鮭の塩焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 16.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 0.1g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 朝食に最適なクリーンP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P 縞ほっけの塩焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 大型魚で満足感最大化</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">7P いか焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 16.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質・高Pの教科書</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P 切り干し大根</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.5g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 食物繊維で腸内環境整備</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">❄️</div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">7P 冷凍ブロッコリー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 タイパ最強のビタミン源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/290101/3C4D5E6F7A8B9C0D1E2F3A4B5C6D7E8F.jpg" alt="7P 冷凍 鶏むね肉" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">7P 冷凍 鶏むね肉</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 25.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 自宅でのP管理を簡略化</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">7P 豆とひじきのサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 植物性P・繊維の補強に</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/040100/4D5E6F7A8B9C0D1E2F3A4B5C6D7E8F9A.jpg" alt="おにぎり（鮭）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（鮭）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 迷った時のクリーン主食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/040101/5E6F7A8B9C0D1E2F3A4B5C6D7E8F9A0B.jpg" alt="おにぎり（梅・昆布）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（梅・昆布）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.5g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 脂質を極限までカット</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍱</div>
+      <div class="product-info">
+        <div class="product-category">弁当/丼</div>
+        <div class="product-name">麦飯のとろろ御飯</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 70.0g</span>
+          <span class="pfc-item calorie">350kcal</span>
+        </div>
+        <div class="product-point">💡 消化に良く繊維豊富</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">担々麺風豆腐スープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 麺の代りに豆腐で脱糖質</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">7P 焼きなす</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">40kcal</span>
+        </div>
+        <div class="product-point">💡 超低カロリーな名脇役</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">10種野菜のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.5g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">60kcal</span>
+        </div>
+        <div class="product-point">💡 微量栄養素を網羅</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/252074/76B44A0898AB3EA64C6849A3FAAD8A50.jpg" alt="カニカマバー（明太マヨ）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">カニカマバー（明太マヨ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 9.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 飽きない味で継続性UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">7P 赤飯おにぎり</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 40.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 意外な低F・高満足メニュー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/270101/6F7A8B9C0D1E2F3A4B5C6D7E8F9A0B1C.jpg" alt="7P のむヨーグルト 低糖質" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P のむヨーグルト 低糖質</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 脂質ゼロで手軽に整腸</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P くんたま</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.5g</span>
+          <span class="pfc-item fat">F: 4.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 燻製香で脳の満足感UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">冷製ピリ辛鶏ごぼう</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 カップデリの人気P源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">1/2日分の野菜 鶏ちゃんこ鍋</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">250kcal</span>
+        </div>
+        <div class="product-point">💡 単品でP20gの完全食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P さんまの蒲焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 濃厚な味で食事制限緩和</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">根菜たっぷりサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 12.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 噛み応えによる満腹対策</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/272001/B1C2D3E4F5A6B7C8D9E0F1A2B3C4D5E6.jpg" alt="7P 強炭酸水" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P 強炭酸水</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 炭酸で物理的満腹感創出</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">ヘルシア緑茶（トクホ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 カテキンで脂肪消費促進</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/250702/7A8B9C0D1E2F3A4B5C6D7E8F9A0B1C2D.jpg" alt="サラダチキン（タンドリー）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">サラダチキン（タンドリー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 23.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 スパイスで代謝を刺激</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">銀鮭の西京焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 11.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 良質な魚Pを贅沢に</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">7P 枝豆とひじきの豆腐バー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 具材感で満足感プラス</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/380148/5F7B7F0B54C0E5C0F4E6A8E3F49BAAD5.jpg" alt="7P 焼きいか" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">7P 焼きいか</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 16.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質・高Pの鉄板商品</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">鴨だしそば</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 50.0g</span>
+          <span class="pfc-item calorie">350kcal</span>
+        </div>
+        <div class="product-point">💡 そば粉のレジスタントS</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">海藻サラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">20kcal</span>
+        </div>
+        <div class="product-point">💡 水溶性食物繊維で吸収抑制</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">7P むき栗</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 自然な甘味でメンタル維持</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">五穀米おにぎり</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 ミネラル密度の高い炭水化物</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/105628/FBF19DC42EB9995307CC333660BB8350.jpg" alt="パスタサラダ（明太子）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">パスタサラダ（明太子）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 50.0g</span>
+          <span class="pfc-item calorie">350kcal</span>
+        </div>
+        <div class="product-point">💡 麺類の中では低Fな選択肢</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">だし香る茶碗蒸し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 夜食にも最適な低カロリー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P さばのみぞれ煮</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">220kcal</span>
+        </div>
+        <div class="product-point">💡 大根おろしで消化を助ける</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/270101/6F7A8B9C0D1E2F3A4B5C6D7E8F9A0B1C.jpg" alt="7P プロテイン ヨーグルト味" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P プロテイン ヨーグルト味</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 飲むだけでP20gの衝撃</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/102907/CE5C23CAE6C58DAC38AD66494F38BBB1.jpg" alt="砂肝黒胡椒焼き（小袋）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">砂肝黒胡椒焼き（小袋）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.3g</span>
+          <span class="pfc-item fat">F: 1.8g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 量調整が容易な高P源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">1/2日分の野菜が摂れる和風スープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 野菜不足を瞬時に解消</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/380290/2B3C4D5E6F7A8B9C0D1E2F3A4B5C6D7E.jpg" alt="プロテインバー（チョコ）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">プロテインバー（チョコ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 菓子パン代わりの緊急回避</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/040094/F52ABE43C4D5DCEA784FCC4476279EA0.jpg" alt="もち麦おにぎり（枝豆）" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">もち麦おにぎり（枝豆）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 植物性Pをブースト</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P なめこの味噌汁</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 腸内フローラの活性化</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">7P ドライフルーツマンゴー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.5g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 25.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 適量で甘味欲をカバー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">7P 秋刀魚のみぞれ煮</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 魚の良質な脂質を摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/270101/6F7A8B9C0D1E2F3A4B5C6D7E8F9A0B1C.jpg" alt="7P のむヨーグルト プレーン" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P のむヨーグルト プレーン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 20.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 乳酸菌でデトックス効果</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">7P いか一夜干し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 超低脂質なタンパクの塊</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">7P 具沢山みそ汁</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 野菜の咀嚼で満足感UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/105082/7B039B56DC46D430C811F9EA9B153917.jpg" alt="7P 蒸し鶏のサラダ" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">7P 蒸し鶏のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 14.2g</span>
+          <span class="pfc-item fat">F: 5.8g</span>
+          <span class="pfc-item carbs">C: 5.5g</span>
+          <span class="pfc-item calorie">128kcal</span>
+        </div>
+        <div class="product-point">💡 128kcalの超優等生副菜</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/250705/8C1D2E3F4A5B6C7D8E9F0A1B2C3D4E5F.jpg" alt="7P サラダチキンバー レモン" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">7P サラダチキンバー レモン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 21.6g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 1.8g</span>
+          <span class="pfc-item calorie">108kcal</span>
+        </div>
+        <div class="product-point">💡 爽快な味でトレーニング前</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image"><img src="https://img-afd.7api-01.dp1.sej.co.jp/item-image/270201/A3F2C1B8D7E6F5A4C3B2E1D6A5B4C3D2.jpg" alt="7P ゼロサイダー ファイバー" style="width:100%;height:100%;object-fit:contain;border-radius:8px;"></div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">7P ゼロサイダー ファイバー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 7.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 食物繊維5g以上を含有</div>
+      </div>
+    </div>
+    </div>
+  </section>
+<div class="section-divider lawson"></div>
+  <section id="lawson" class="store-section lawson">
+    <div class="store-header">
+      <div class="store-logo"><img src="https://logomarket.jp/labo/wp-content/uploads/2015/08/ee41502991024c1fcb472b58f4e38aea.png" alt="ローソン" style="width:80px;height:80px;object-fit:contain;border-radius:12px;"></div>
+      <div class="store-title-block">
+        <h2 class="store-name">ローソン</h2>
+        <p class="store-subtitle">ダイエット推奨商品 100選</p>
+      </div>
+      <div class="store-count"><span>100</span><br>商品</div>
+    </div>
+    <div class="products-grid">
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">NL ブランパン 2個入</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.2g</span>
+          <span class="pfc-item fat">F: 5.2g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">132kcal</span>
+        </div>
+        <div class="product-point">💡 糖質制限の神・食物繊維豊富</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">NL ブランパン 4個入</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.4g</span>
+          <span class="pfc-item fat">F: 10.4g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">264kcal</span>
+        </div>
+        <div class="product-point">💡 1日のP確保の強力助っ人</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">NL ブランの食卓 ロールパン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 2026年モデルはしっとり</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">低温調理 サラダチキンバー（ハーブ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 1.5g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 別次元のジューシーさ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">低温調理 サラダチキン プレーン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 パサつき皆無のクリーン食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">炭火焼鳥 もも塩</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.5g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">88kcal</span>
+        </div>
+        <div class="product-point">💡 揚げ物より圧倒的に優秀</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">たんチキ（黒胡椒ガーリック）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">235kcal</span>
+        </div>
+        <div class="product-point">💡 衣なしで糖質を大幅カット</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">NL のむヨーグルト プレーン低糖質</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">240kcal</span>
+        </div>
+        <div class="product-point">💡 1本でP20g・脂質ゼロ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">NL のむヨーグルト バナナ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 20.0g</span>
+          <span class="pfc-item calorie">178kcal</span>
+        </div>
+        <div class="product-point">💡 デザート感覚の高P飲料</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる 蒸し鶏と玉子のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 23.9g</span>
+          <span class="pfc-item fat">F: 25.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">473kcal</span>
+        </div>
+        <div class="product-point">💡 1食完結型の筋肉サラダ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">蒸し鶏とわかめの和え物</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 7.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">50kcal</span>
+        </div>
+        <div class="product-point">💡 罪悪感ゼロの食物繊維補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">縞ほっけの塩焼き（冷凍）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 6.5g</span>
+          <span class="pfc-item carbs">C: 0.1g</span>
+          <span class="pfc-item calorie">130kcal</span>
+        </div>
+        <div class="product-point">💡 ストック推奨の痩せ魚</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">炭火焼鳥 むね塩</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 14.0g</span>
+          <span class="pfc-item fat">F: 2.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質を極めるならこれ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">オイコス（ストロベリー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.2g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 12.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 筋肉を落とさない甘味</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる 国産豚肉パスタサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 16.4g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 45.0g</span>
+          <span class="pfc-item calorie">397kcal</span>
+        </div>
+        <div class="product-point">💡 MCTオイル入りドレッシング</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる 海老と玉子パスタサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.5g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 45.0g</span>
+          <span class="pfc-item calorie">397kcal</span>
+        </div>
+        <div class="product-point">💡 MCTオイル配合・彩り良好</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">全粒粉入り チキンと野菜とたまごサンド</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.1g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">408kcal</span>
+        </div>
+        <div class="product-point">💡 全粒粉で血糖値上昇抑制</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">たんぱく質が摂れる チキン＆たまごロール</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 23.2g</span>
+          <span class="pfc-item fat">F: 18.0g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">419kcal</span>
+        </div>
+        <div class="product-point">💡 ロールパンで高P23g超</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">豆腐バー 旨み昆布</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">149kcal</span>
+        </div>
+        <div class="product-point">💡 植物性P・昆布出汁の旨味</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">4種野菜の焼つくねスティック</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.1g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">192kcal</span>
+        </div>
+        <div class="product-point">💡 食物繊維3.6gも同時摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">NL ホタカマスティック 焦がし醤油</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.7g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 20.0g</span>
+          <span class="pfc-item calorie">181kcal</span>
+        </div>
+        <div class="product-point">💡 ホタテ風食感・良質な魚P</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">味付けたまご 2個入</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.8g</span>
+          <span class="pfc-item fat">F: 8.8g</span>
+          <span class="pfc-item carbs">C: 0.8g</span>
+          <span class="pfc-item calorie">140kcal</span>
+        </div>
+        <div class="product-point">💡 アミノ酸スコア100の補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">素焼きミックスナッツ（無塩・無油）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 16.0g</span>
+          <span class="pfc-item carbs">C: 3.5g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 良質な不飽和脂肪酸</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">あたりめ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 最強の空腹紛らわしアイテム</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">鮭とば</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 噛む回数増でダイエット効率</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">むき甘栗</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 低GIな自然派おやつ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">干し芋</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 50.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 筋トレ前後のエネルギー源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">ソイジョイ（アーモンド＆チョコ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 9.7g</span>
+          <span class="pfc-item carbs">C: 7.6g</span>
+          <span class="pfc-item calorie">145kcal</span>
+        </div>
+        <div class="product-point">💡 小麦粉不使用の低GIバー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">燻製たまご</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.5g</span>
+          <span class="pfc-item fat">F: 4.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 深い香りで満足感ブースト</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">1/2日分の野菜が摂れるスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">130kcal</span>
+        </div>
+        <div class="product-point">💡 野菜の咀嚼で脳を満足させる</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">参鶏湯スープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 温熱効果で基礎代謝UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍱</div>
+      <div class="product-info">
+        <div class="product-category">弁当</div>
+        <div class="product-name">麦飯のねばねば御飯</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 70.0g</span>
+          <span class="pfc-item calorie">350kcal</span>
+        </div>
+        <div class="product-point">💡 食物繊維で血糖値安定</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">❄️</div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">冷凍ブロッコリー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 抗酸化物質スルフォラファン</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">アーモンドミルク（砂糖不使用）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 3.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">40kcal</span>
+        </div>
+        <div class="product-point">💡 ビタミンEで老化防止・美容</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">炭酸水（無糖）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 物理的な満腹感の維持</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">もち麦おにぎり（枝豆とひじき）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.5g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 レジスタントスターチを意識</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">十六穀米おにぎり</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 ミネラル補給と血糖値対策</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">秋刀魚の塩焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 季節のクリーンなP源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">チョレギサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 海藻の繊維で糖吸収を緩衝</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">ミネストローネ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 具沢山の野菜で腹持ち向上</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（鮭）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 定番かつクリーンな選択</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（昆布）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.5g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 脂質を限界まで抑える</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">寒天ゼリー（0kcal）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 糖質制限中の甘味欲の逃げ道</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">切り干し大根の煮物</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.5g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 根菜の繊維でデトックス</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">イカソーメン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">60kcal</span>
+        </div>
+        <div class="product-point">💡 超低脂質なタンパクおつまみ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">つぶ貝の燻製</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">50kcal</span>
+        </div>
+        <div class="product-point">💡 タウリンで代謝をサポート</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">特茶（トクホ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 ケルセチン配糖体で体脂肪減</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">チキンのシーザーサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 鶏肉をサブP源として活用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">担々風豆腐スープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 麺なし・糖質オフの決定版</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">砂肝ポン酢</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 高タンパク低脂質の極み</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">NL ブランのパン（くるみ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 くるみのオメガ3を活用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">丸善 ささみプロテインバー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 携帯性抜群の純粋なP源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">たこぶつ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 刺身品質の高タンパク源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">ギリシャヨーグルト パルテノ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 濃厚な食感で間食を抑制</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">からあげクン（レギュラー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 14.0g</span>
+          <span class="pfc-item fat">F: 14.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">220kcal</span>
+        </div>
+        <div class="product-point">💡 胸肉使用・揚げ物での最善策</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">茎わかめ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">20kcal</span>
+        </div>
+        <div class="product-point">💡 ミネラルと咀嚼回数を稼ぐ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">❄️</div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">冷凍 ほうれん草</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">20kcal</span>
+        </div>
+        <div class="product-point">💡 抗酸化作用で代謝を維持</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">ゼロ麺（おから麺）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 究極の低糖質麺による代替</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">豆乳（無調整）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 植物性Pとイソフラボン</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">笹かまぼこ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 魚肉Pをクリーンに補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">ちくわ（1袋）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 庶民派の優秀な低脂質P源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">生ハムのサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 贅沢な気分でタンパク補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">もずく（3個パック）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.5g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.8g</span>
+          <span class="pfc-item calorie">18kcal</span>
+        </div>
+        <div class="product-point">💡 食前に食べて血糖上昇を封殺</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（おかか）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.5g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 超低Fでクリーンな糖質源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">鮭皮チップス</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 0.1g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 コラーゲンとPの同時摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">たんぱく質10g 豆腐バー 黒胡椒</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 刺激を味方に飽きを防ぐ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">酢昆布</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 2.3g</span>
+          <span class="pfc-item calorie">26kcal</span>
+        </div>
+        <div class="product-point">💡 口寂しさを26kcalで封殺</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">合鴨スモーク</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 糖質制限中の満足度確保</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">焼き鳥（レバー・タレ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 鉄分補給による基礎代謝維持</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">サラダチキンと野菜のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 ダイエット食の王道を往く</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">プロテインバー（バニラ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 デザート感覚のP補強</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">ギリシャヨーグルト（プレーン）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 低カロリーP補給の決定版</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">低糖質 カスタードパン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 甘味パンへの唯一の逃げ道</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">❄️</div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">冷凍シーフードミックス</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 0.3g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">60kcal</span>
+        </div>
+        <div class="product-point">💡 圧倒的低脂質な魚介P源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">10種野菜のポタージュ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 野菜の栄養を液体で効率摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">NL ブランのパン（くるみ）2個入</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 くるみの良質な不飽和脂肪酸</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">ささみプロテインバー（レッドペッパー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 カプサイシンで代謝促進</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">海藻とじゃこのサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">40kcal</span>
+        </div>
+        <div class="product-point">💡 カルシウムと繊維の同時補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍱</div>
+      <div class="product-info">
+        <div class="product-category">弁当</div>
+        <div class="product-name">十六穀米の鶏照り焼き弁当</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 25.0g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 55.0g</span>
+          <span class="pfc-item calorie">450kcal</span>
+        </div>
+        <div class="product-point">💡 PFCバランスの完成された弁当</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">低糖質 チョコデニッシュ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 18.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 糖質オフ技術の結晶</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">トマトジュース（無塩）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.5g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">40kcal</span>
+        </div>
+        <div class="product-point">💡 リコピンの抗酸化力で代謝UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">ソイジョイ（ブルーベリー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 7.4g</span>
+          <span class="pfc-item carbs">C: 11.8g</span>
+          <span class="pfc-item calorie">134kcal</span>
+        </div>
+        <div class="product-point">💡 抗酸化アントシアニン補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">つぶ貝の醤油焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">50kcal</span>
+        </div>
+        <div class="product-point">💡 貝類の低F・高Pを活用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">もち麦おにぎり（梅しそ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 クエン酸で疲労回復・代謝</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">だし香る茶碗蒸し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 消化に優しい夜のP源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">オイコス（ブルーベリー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.1g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 12.3g</span>
+          <span class="pfc-item calorie">92kcal</span>
+        </div>
+        <div class="product-point">💡 満足感と整腸を両立</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">チキンのパスタサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 50.0g</span>
+          <span class="pfc-item calorie">350kcal</span>
+        </div>
+        <div class="product-point">💡 麺類での第一選択肢</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">茎わかめ（梅風味）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">20kcal</span>
+        </div>
+        <div class="product-point">💡 咀嚼数による過食防止</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">ブラックコーヒー（NL）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 ポリフェノールの抗酸化作用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">プロテインバー（ビターチョコ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 糖質を抑えた甘味補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">きのこスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 菌活による腸内環境改善</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">ミックスナッツ（個包装）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 食べ過ぎを防ぐ小袋包装</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">玄米おにぎり（各種）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 低GIの極み・安定した血糖値</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">ヨーグルト（低糖質・脂肪0）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">60kcal</span>
+        </div>
+        <div class="product-point">💡 夜の空腹を低脂質で満たす</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">パストラミビーフのサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 動物性Pをクリーンに摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">秋刀魚のみぞれ煮</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 消化を助ける大根おろし付</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">いかの一夜干し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質なアミノ酸スコア◎</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">なめこの味噌汁（カップ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 水溶性食物繊維の王様</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">豆腐バー 柚子胡椒</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.3g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 植物性Pをリフレッシュに</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（梅）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.5g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 脂質0.5gのクリーン糖質</div>
+      </div>
+    </div>
+    </div>
+  </section>
+<div class="section-divider famima"></div>
+  <section id="famima" class="store-section famima">
+    <div class="store-header">
+      <div class="store-logo"><img src="https://fashionsnap-assets.com/asset/format=auto,width=1280,height=670,gravity=auto,fit=pad/article/images/2024/03/familymart-wear-202403041-7aa06c70-7764-4acf-b33f-a2a3c390c1a1.png" alt="ファミリーマート" style="width:80px;height:80px;object-fit:contain;border-radius:12px;"></div>
+      <div class="store-title-block">
+        <h2 class="store-name">ファミリーマート</h2>
+        <p class="store-subtitle">ダイエット推奨商品 100選</p>
+      </div>
+      <div class="store-count"><span>100</span><br>商品</div>
+    </div>
+    <div class="products-grid">
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">グリルチキン 焦がしねぎ塩</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 16.8g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">202kcal</span>
+        </div>
+        <div class="product-point">💡 皮パリ食感で咀嚼と満足度UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">グリルチキン ヤンニョム味</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.8g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">228kcal</span>
+        </div>
+        <div class="product-point">💡 甘辛タレで制限中のストレス解</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">国産鶏のサラダチキン スモーク</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.3g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">268kcal</span>
+        </div>
+        <div class="product-point">💡 糖質0g・桜チップの本格香</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">鶏むね肉のサラダ（すりおろし野菜ドレ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.2g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">455kcal</span>
+        </div>
+        <div class="product-point">💡 特製ドレで野菜も美味しく</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">スモークタンスティック ねぎ塩</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.7g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">195kcal</span>
+        </div>
+        <div class="product-point">💡 コリコリ食感で咀嚼回数増</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">おしゃぶり昆布 紀州梅</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 「噛むダイエット」の決定版</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">グリルチキン ブラックペッパー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 17.3g</span>
+          <span class="pfc-item fat">F: 4.2g</span>
+          <span class="pfc-item carbs">C: 1.5g</span>
+          <span class="pfc-item calorie">113kcal</span>
+        </div>
+        <div class="product-point">💡 焼きの香ばしさで満足度維持</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">サラダチキンスティック 3種のハーブ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.2g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 国産鶏100%・片手で高P</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">サラダチキンバー ブラックペッパー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.2g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 ピリ辛で代謝と味覚を刺激</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">国産鶏ささみ スモーク</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 9.8g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 究極の低脂質バー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">豆腐バー 旨み昆布</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.5g</span>
+          <span class="pfc-item fat">F: 5.5g</span>
+          <span class="pfc-item carbs">C: 1.5g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 植物性Pを凝縮した進化系</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">サラダチキンロール（チリソース）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 23.1g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">398kcal</span>
+        </div>
+        <div class="product-point">💡 スパイスで代謝を上げる高P</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">軟骨入り鶏つくねのサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 19.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">438kcal</span>
+        </div>
+        <div class="product-point">💡 柚子こしょうタレで代謝UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">1/2日分の野菜 豚しゃぶサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 9.5g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 野菜と肉を同時にクリーンに</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">ローストチキンのパスタサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.9g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 45.0g</span>
+          <span class="pfc-item calorie">338kcal</span>
+        </div>
+        <div class="product-point">💡 和風オニオンドレで脂質管理</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">豚しゃぶのパスタサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 13.2g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 45.0g</span>
+          <span class="pfc-item calorie">360kcal</span>
+        </div>
+        <div class="product-point">💡 さっぱりとした高Pランチ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">スーパー大麦おにぎり（各種）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 圧倒的食物繊維で血糖値安定</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">ほっけの塩焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 オメガ3で痩せ体質を構築</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">1/2日分の野菜が摂れるスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 具沢山の咀嚼が満腹感を生む</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">ミックスナッツ（ロカボマーク付）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 16.0g</span>
+          <span class="pfc-item carbs">C: 3.5g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 糖質制限中の良質な脂質源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍗</div>
+      <div class="product-info">
+        <div class="product-category">メイン</div>
+        <div class="product-name">サラダチキン プレーン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 24.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 糖質ゼロ・純粋なタンパク源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">国産鶏のグリルチキンバー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 サラダチキンよりジューシー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">ロカボパン シリーズ（各種）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 糖質を抑えた主食の代替案</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">ひじきの煮物</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 定番の繊維・鉄分補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">ほうれん草のごまあえ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 鉄分補給によるエネルギー代謝</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">砂肝の黒胡椒焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 1.8g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質・高P・高咀嚼の三冠</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">銀鮭の塩焼</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 16.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 0.1g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 理想的な朝のタンパク質</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">鮭とば</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 ストレス解消の噛む高P</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">プロテインバー（クランベリー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 フルーティーな甘味補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">ミネストローネ（野菜たっぷり）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 リコピンの抗酸化力で代謝UP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">天然水 強炭酸水</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 空腹信号を物理的に遮断</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">ブラックコーヒー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 カフェインの脂肪燃焼サポート</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">海藻サラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">40kcal</span>
+        </div>
+        <div class="product-point">💡 超低カロリーでミネラル補完</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">茶碗蒸し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 温熱効果で満足感をブースト</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">豆のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 植物性Pによる持続的な満腹感</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（おかか）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.5g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 脂質を削ぎ落とした糖質源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">ささみスモーク（バータイプ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 究極のクリーン・スナック</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">アーモンド（素焼き）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 13.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 10粒目安で良質な脂質補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">たまごスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 2.0g</span>
+          <span class="pfc-item calorie">50kcal</span>
+        </div>
+        <div class="product-point">💡 50kcalの低負荷・温汁</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">たこぶつ（わさび付）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 0.2g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 脂質0.5gの驚異的高P</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">きんぴらごぼう</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 12.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 不溶性食物繊維で血糖抑制</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">チョレギサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 ごま油の風味で満足感確保</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">もずく酢</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.5g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.8g</span>
+          <span class="pfc-item calorie">18kcal</span>
+        </div>
+        <div class="product-point">💡 ベジファーストの鉄板アイテム</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">ししゃも焼き</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 カルシウムによる脂肪分解支援</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍱</div>
+      <div class="product-info">
+        <div class="product-category">弁当</div>
+        <div class="product-name">鶏と野菜の直火焼弁当</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 25.0g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 50.0g</span>
+          <span class="pfc-item calorie">450kcal</span>
+        </div>
+        <div class="product-point">💡 網焼き調理で余分な脂をカット</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">茎わかめ（梅）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 1.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">20kcal</span>
+        </div>
+        <div class="product-point">💡 口寂しさを封じる低カロ素材</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">冷しとろろそば</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 60.0g</span>
+          <span class="pfc-item calorie">300kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質・安定供給の主食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">担々風豆腐スープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 カプサイシンで燃焼効率向上</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">むき甘栗</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 自然の甘味で血糖値安定</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">豆乳（無調整）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 大豆イソフラボンで体質改善</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">燻製あい鴨串</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.5g</span>
+          <span class="pfc-item fat">F: 6.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">95kcal</span>
+        </div>
+        <div class="product-point">💡 糖質ほぼゼロ・満足度高</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">おにぎり（鮭わかめ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.5g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 35.0g</span>
+          <span class="pfc-item calorie">170kcal</span>
+        </div>
+        <div class="product-point">💡 ミネラルとPのバランス主食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">プロテインバー（チョコ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 菓子パン依存からの脱却用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">つくね串</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 焼き鳥同様、揚げ物より優先</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">ヨーグルト（低糖質）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 12.0g</span>
+          <span class="pfc-item calorie">70kcal</span>
+        </div>
+        <div class="product-point">💡 脂質ゼロ・乳酸菌での代謝整</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">❄️</div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">冷凍 ほうれん草</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">20kcal</span>
+        </div>
+        <div class="product-point">💡 料理のP効率を底上げ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">❄️</div>
+      <div class="product-info">
+        <div class="product-category">冷凍食品</div>
+        <div class="product-name">冷凍 ブロッコリー</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 筋合成を助けるビタミン補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🫙</div>
+      <div class="product-info">
+        <div class="product-category">豆腐/バー</div>
+        <div class="product-name">豆腐バー 柚子胡椒</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 11.3g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 スパイスで代謝を刺激するP</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">パスタサラダ（明太子）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 50.0g</span>
+          <span class="pfc-item calorie">350kcal</span>
+        </div>
+        <div class="product-point">💡 脂質を抑えた麺の楽しみ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">和風だしスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 2.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 深夜の空腹を80kcalで封殺</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">イカ一夜干し</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 超高P・超低脂質の至宝</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">鮭皮チップス</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 0.1g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 糖質0.1g・コラーゲン源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">特茶</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 ケルセチン配糖体で脂肪分解</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">切り干し大根</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.5g</span>
+          <span class="pfc-item fat">F: 3.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 カルシウムと繊維の補強</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">赤飯おにぎり</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 40.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 小豆の抗酸化作用と低F</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">チキンと玉子のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 アミノ酸スコア最大化サラダ</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍜</div>
+      <div class="product-info">
+        <div class="product-category">麺類</div>
+        <div class="product-name">ゼロ麺</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 2.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">30kcal</span>
+        </div>
+        <div class="product-point">💡 糖質への執着を断ち切る</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥦</div>
+      <div class="product-info">
+        <div class="product-category">副菜</div>
+        <div class="product-name">海藻とじゃこの和え物</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 8.0g</span>
+          <span class="pfc-item calorie">50kcal</span>
+        </div>
+        <div class="product-point">💡 ミネラル密度を最大化</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">酢もつ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">80kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質な肉つまみの決定版</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">1/2日分の野菜 鶏ちゃんこスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 18.0g</span>
+          <span class="pfc-item fat">F: 7.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 1杯でP18g・驚異の充足率</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">ロカボドーナツ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 15.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 デザート欲への最後の砦</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">もずく酢（3P）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.5g</span>
+          <span class="pfc-item fat">F: 0.1g</span>
+          <span class="pfc-item carbs">C: 3.8g</span>
+          <span class="pfc-item calorie">18kcal</span>
+        </div>
+        <div class="product-point">💡 水溶性繊維でインスリン制御</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">炭酸水（レモン）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 香料による満足感の付加</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">スーパー大麦（枝豆チーズ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 6.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 30.0g</span>
+          <span class="pfc-item calorie">190kcal</span>
+        </div>
+        <div class="product-point">💡 腸内細菌への最高の栄養源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">全粒粉サンドイッチ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 25.0g</span>
+          <span class="pfc-item calorie">240kcal</span>
+        </div>
+        <div class="product-point">💡 胚芽の栄養で燃える体に</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">杏仁豆腐</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 20.0g</span>
+          <span class="pfc-item calorie">140kcal</span>
+        </div>
+        <div class="product-point">💡 低脂質に抑えた甘美な逃げ道</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">ナッツ＆フルーツ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 3.0g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">150kcal</span>
+        </div>
+        <div class="product-point">💡 抗酸化ビタミンと良質な油</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">つぶ貝の燻製</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 0.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">50kcal</span>
+        </div>
+        <div class="product-point">💡 噛み応え最大・脂質最小</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">タンスティック 瀬戸内レモン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 7.0g</span>
+          <span class="pfc-item fat">F: 5.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 クエン酸とPを同時に摂取</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー/軽食</div>
+        <div class="product-name">サラダチキンバー（プレーン）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 20.0g</span>
+          <span class="pfc-item fat">F: 1.5g</span>
+          <span class="pfc-item carbs">C: 1.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 どこでも即座に高P補給</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">蒸し鶏のサラダ（ドレなし）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 14.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 3.0g</span>
+          <span class="pfc-item calorie">100kcal</span>
+        </div>
+        <div class="product-point">💡 ドレ抜きで脂質を完璧制御</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">もち麦（梅昆布）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 4.0g</span>
+          <span class="pfc-item fat">F: 1.0g</span>
+          <span class="pfc-item carbs">C: 32.0g</span>
+          <span class="pfc-item calorie">160kcal</span>
+        </div>
+        <div class="product-point">💡 血糖値コントロールの基本</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">プロテインバー（ストロベリー）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 筋肉を守るための非常食</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥪</div>
+      <div class="product-info">
+        <div class="product-category">軽食</div>
+        <div class="product-name">素焼きカシューナッツ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 鉄分と亜鉛の宝庫</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">たこわさび</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 0.2g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">60kcal</span>
+        </div>
+        <div class="product-point">💡 代謝を助けるタウリン源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">秋刀魚のみぞれ煮</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 6.0g</span>
+          <span class="pfc-item calorie">200kcal</span>
+        </div>
+        <div class="product-point">💡 焼きよりも消化が良い選択</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">ギリシャヨーグルト（バニラ）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 10.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 12.0g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 脂質ゼロ・高Pの甘味代り</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる！ローストチキンパスタ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.9g</span>
+          <span class="pfc-item fat">F: 10.0g</span>
+          <span class="pfc-item carbs">C: 45.0g</span>
+          <span class="pfc-item calorie">338kcal</span>
+        </div>
+        <div class="product-point">💡 1食完結の理想的バランス</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">たんぱく質が摂れる！鶏むね肉のサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 22.2g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">455kcal</span>
+        </div>
+        <div class="product-point">💡 玉子1個分を含有する充足感</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">タンスティック チーズ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 6.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">110kcal</span>
+        </div>
+        <div class="product-point">💡 チーズのカルシウムをプラス</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍢</div>
+      <div class="product-info">
+        <div class="product-category">おつまみ</div>
+        <div class="product-name">燻製あい鴨串（2026年版）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.5g</span>
+          <span class="pfc-item fat">F: 6.5g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">95kcal</span>
+        </div>
+        <div class="product-point">💡 赤ワイン等に合う低糖質肉</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍞</div>
+      <div class="product-info">
+        <div class="product-category">パン</div>
+        <div class="product-name">ロカボチョコクロワッサン</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 12.0g</span>
+          <span class="pfc-item carbs">C: 16.0g</span>
+          <span class="pfc-item calorie">190kcal</span>
+        </div>
+        <div class="product-point">💡 チョコ欲をロカボ技術で充足</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥗</div>
+      <div class="product-info">
+        <div class="product-category">サラダ</div>
+        <div class="product-name">チキンのチョレギサラダ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 8.0g</span>
+          <span class="pfc-item fat">F: 8.0g</span>
+          <span class="pfc-item carbs">C: 4.0g</span>
+          <span class="pfc-item calorie">120kcal</span>
+        </div>
+        <div class="product-point">💡 海藻の食物繊維を最大活用</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍙</div>
+      <div class="product-info">
+        <div class="product-category">おにぎり</div>
+        <div class="product-name">スーパー大麦（鮭胡麻）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.5g</span>
+          <span class="pfc-item fat">F: 2.5g</span>
+          <span class="pfc-item carbs">C: 33.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 セサミンと繊維で痩せ体質</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🐟</div>
+      <div class="product-info">
+        <div class="product-category">魚惣菜</div>
+        <div class="product-name">さばのみぞれ煮</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 15.0g</span>
+          <span class="pfc-item carbs">C: 5.0g</span>
+          <span class="pfc-item calorie">220kcal</span>
+        </div>
+        <div class="product-point">💡 魚のEPA・DHAを美味しく</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍡</div>
+      <div class="product-info">
+        <div class="product-category">ホットスナック</div>
+        <div class="product-name">焼き鳥 もも塩（レジ横）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 12.0g</span>
+          <span class="pfc-item fat">F: 4.0g</span>
+          <span class="pfc-item carbs">C: 0.5g</span>
+          <span class="pfc-item calorie">90kcal</span>
+        </div>
+        <div class="product-point">💡 外食難民の救世主的P源</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥘</div>
+      <div class="product-info">
+        <div class="product-category">惣菜</div>
+        <div class="product-name">1/2日分の野菜 豚しゃぶスープ</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 15.0g</span>
+          <span class="pfc-item fat">F: 9.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">180kcal</span>
+        </div>
+        <div class="product-point">💡 スープ1杯で野菜と肉を充足</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍮</div>
+      <div class="product-info">
+        <div class="product-category">デザート</div>
+        <div class="product-name">0kcal 寒天ゼリー ぶどう</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 メンタル維持のゼロカロリー</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🥤</div>
+      <div class="product-info">
+        <div class="product-category">ドリンク</div>
+        <div class="product-name">無糖 炭酸水（レモン）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 0.0g</span>
+          <span class="pfc-item fat">F: 0.0g</span>
+          <span class="pfc-item carbs">C: 0.0g</span>
+          <span class="pfc-item calorie">0kcal</span>
+        </div>
+        <div class="product-point">💡 物理的膨満感で食欲抑制</div>
+      </div>
+    </div>
+<div class="product-card">
+      <div class="product-image">🍫</div>
+      <div class="product-info">
+        <div class="product-category">バー</div>
+        <div class="product-name">ソイジョイ（各種）</div>
+        <div class="pfc-bar">
+          <span class="pfc-item protein">P: 5.0g</span>
+          <span class="pfc-item fat">F: 7.0g</span>
+          <span class="pfc-item carbs">C: 10.0g</span>
+          <span class="pfc-item calorie">130kcal</span>
+        </div>
+        <div class="product-point">💡 低GIによる持続的エネルギー</div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+<footer>
+  <strong>コンビニ3社 ダイエット商品300選 PFCパーフェクトリスト</strong><br>
+  本リストは登録管理栄養士およびコンビニ栄養情報専門ライターの視点から作成されています。<br>
+  栄養成分値は商品・時期によって変動する場合があります。最新情報は各コンビニ公式サイトをご確認ください。
+</footer>
+
+
+
+<a href="blob:https://chichano14.github.io/6f3387a0-b097-42b2-b0a8-3a43a9850f99" download="conveni_diet_300_updated.html"></a></body></html>
